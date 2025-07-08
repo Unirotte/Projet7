@@ -1,0 +1,49 @@
+body {
+  font-family: "Montserrat";
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+.card {
+  width: 340px;
+  height: 340px;
+  background: #c44343;
+  background: linear-gradient(0deg, rgba(196, 67, 67, 1) 14%, rgba(245, 139, 110, 1) 100%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-radius: 10px;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+
+}
+
+p {
+  width: 95px;
+  margin-left: 15px;
+  color: white;
+   font-weight: 700;
+   font-size: 18px;
+
+}
+header.logo-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+ul.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;;
+    list-style: none;
+    font-weight: 500;
+}
+
