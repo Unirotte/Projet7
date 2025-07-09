@@ -8,13 +8,22 @@ a {
 }
 
 .card {
-  width: 340px;
-  height: 340px;
-  background: #c44343;
+  max-width: 340px;
+  max-height: 340px;
   background: linear-gradient(0deg, rgb(196, 67, 67) 14%, rgb(245, 139, 110) 100%);
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
+  border-radius: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img.card-image {
+  /* height: 340px; */
+  width: 340px;
+  object-fit: cover;
+  /* position-area: center; */
   border-radius: 10px;
 }
 
@@ -23,6 +32,11 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  align-items: center;
+  max-width: 1440px;
+  padding: 100px 200px;
 }
 
 p {
@@ -37,6 +51,19 @@ header.logo-header {
   display: flex;
   justify-content: space-between;
   margin: 50px;
+  flex-direction: column;
+}
+
+section.position-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Banner {
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+  margin-top: 50px;
 }
 
 ul.nav-links {
