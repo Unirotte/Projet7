@@ -2,6 +2,7 @@ import './assets/index.css';
 import Header from './components/Header';
 import Card from './components/Cards';
 import { getAllLogements } from './assets/data/loadLogement';
+import Footer from './components/footer';
 
 export default function App() {
   const logements = getAllLogements();
@@ -21,7 +22,7 @@ export default function App() {
       
     
       </div>
-    {/* <Footer /> */}
+    <Footer />
     </>
   );
 }
