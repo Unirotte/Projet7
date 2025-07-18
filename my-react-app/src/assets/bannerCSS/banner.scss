@@ -1,0 +1,21 @@
+.banner-title {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+img.banner-image {
+    position: relative;
+}
+
+section.position-banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Banner {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}

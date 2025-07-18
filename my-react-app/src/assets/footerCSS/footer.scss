@@ -1,0 +1,16 @@
+footer.footer-base {
+  background: black;
+  height: 209px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+p.footer-title {
+  font-weight: 500;
+  font-size: 24px;
+  
+}

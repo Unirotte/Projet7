@@ -1,0 +1,14 @@
+header.logo-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  flex-direction: column;
+}
+
+ul.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+  list-style: none;
+  font-weight: 500;
+}/*# sourceMappingURL=header.css.map */
