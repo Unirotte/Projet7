@@ -19,6 +19,8 @@ img.banner-img {
 section.position-banner {
   display: flex;
   justify-content: space-between;
+  width: 1240px;
+  margin: auto;
 }
 
 .Banner {

@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat";
+  margin: auto;
+}
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ff6060;
+}
+
+h2.textError {
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff6060;
+  margin: 150px 0px;
+}
+
+h1.Error404 {
+  font-weight: 700;
+  font-size: 288px;
+  margin: 0;
+  color: #ff6060;
+  margin-top: 50px;
+}
+
+a.btn-retour {
+  color: black;
+  border-bottom: solid 1px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 150px;
+}/*# sourceMappingURL=errorPage.css.map */

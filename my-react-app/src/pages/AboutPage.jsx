@@ -7,14 +7,18 @@ export default function AboutPage() {
   return (
     <>
       <Banner image={bannerImgAbout} alt={"Image de la bannière"} />
+       <div className="collaps-container">
       {collapsData.map((collaps) => (
+       
         <Collaps
           key={collaps.id}
           id={collaps.id}
           title={collaps.title}
           text={collaps.text}
         />
+        
       ))}
+      </div>
     </>
   );
 }

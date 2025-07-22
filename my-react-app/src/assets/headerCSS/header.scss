@@ -10,4 +10,23 @@ ul.nav-links {
   gap: 57px;
   list-style: none;
   font-weight: 500;
+  font-size: 24px;
+}
+
+li {
+  border-bottom: 2px solid transparent;
+  color: black;
+}
+
+li:hover {
+  border-bottom: 2px solid black;
+}
+
+.li.active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+img.h-10 {
+  height: 68px;
 }

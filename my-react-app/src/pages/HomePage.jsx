@@ -1,4 +1,5 @@
 import "../assets/index.css";
+import "../assets/cardsCSS/cards.css";
 import "../assets/bannerCSS/banner.css";
 import "../assets/cardsCSS/cards.css";
 import Cards from "../components/Cards";
@@ -18,7 +19,7 @@ export default function HomePage() {
       <div className="container-card">
         <div className="Card-zone">
           {logements.map((logement) => (
-            <Cards
+            <Cards 
               key={logement.id} // toujours mettre une key unique dans une liste
               id={logement.id}
               title={logement.title}
