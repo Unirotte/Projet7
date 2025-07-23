@@ -1,30 +1,28 @@
-import Location from "../components/Location";
-import {useParams} from "react-router-dom";
-import {getAllLogements} from "../assets/data/loadLogement";
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { getAllLogements } from "../assets/data/loadLogement";
+import Carrousel from "../components/Carrousel.jsx";
+import Collaps from "../components/CollapsLocation";
+import "../assets/collapsLocationCSS/collapsLocation.css"; 
 
-function PageLocation({logements}) {
-  // exemple : récupération du logement à afficher
-  const {id} = useParams();
-
-  console.log("id param:", id);
-  console.log("logements:", logements);
-
+export default function PageLocation() {
+  const { id } = useParams();
   const [location, setLocation] = useState(null);
 
   useEffect(() => {
-    if (logements && logements.length > 0) {
-      const loc = logements.find((location) => location.id === id);
-      console.log("location trouvée:", loc);
-      setLocation(loc);
-    }
-  }, [id, logements]);
+    const logements = getAllLogements();
+    const loc = logements.find((logement) => logement.id === id);
+    setLocation(loc);
+  }, [id]);
 
   if (!location) {
     return <div>Location non trouvée</div>;
   }
 
-  return <Location data={location} />;
+  return (
+    <div>
+      <Carrousel data={location} />
+      <Collaps data={location} />
+    </div>
+  );
 }
-
-export default PageLocation;

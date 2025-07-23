@@ -1,0 +1,107 @@
+.position-collaps-Location.location-collaps {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.collaps.location-collaps {
+  height: 52px;
+  width: 542px;
+}
+
+h1.Title-Location {
+  font-weight: 500;
+  font-size: 36px;
+  color: #ff6060;
+  margin: 0;
+}
+
+.collapsLocation-container {
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+}
+
+.collapsContent.open.location-collaps {
+  max-width: 582px;
+}
+
+.collapsContent.location-collaps {
+  max-width: 582px;
+}
+
+.tags-container {
+  display: flex;
+  margin: 25px 0px;
+  gap: 25px;
+}
+
+.tag {
+  display: flex;
+  background: #ff6060;
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h2.Subtitle-Location {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li.textCollaps,
+li.textCollaps:hover {
+  border-bottom: none;
+  margin-bottom: 5px;
+}
+
+.positionAll {
+  margin: auto;
+  max-width: 1240px;
+}
+
+.collapsTextlocation-collaps {
+  margin: 25px 0px;
+}
+
+img.host-picture {
+  width: 64px;
+  border-radius: 31px;
+}
+
+.host-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 50px;
+}
+
+.nameImg {
+  display: flex;
+  align-items: center;
+  width: 140px;
+}
+
+.containter-subStar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star-container {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=collapsLocation.css.map */

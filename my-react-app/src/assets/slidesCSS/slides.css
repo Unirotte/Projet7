@@ -1,0 +1,29 @@
+p.collapsText {
+  display: flex;
+}
+
+img.slides-img {
+  height: 415px;
+  width: 1240px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+button.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 166px;
+  display: flex;
+  gap: 1100px;
+}
+
+.banner-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=slides.css.map */

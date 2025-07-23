@@ -45,12 +45,12 @@
 }
 
 .collapsContent.open {
-  max-height: 500px; /* ou auto avec JS, mais 500px fonctionne si ton texte reste court */
-  padding: 20px;
+  max-height: 500px;
   transition: max-height 0.3s ease;
 }
 
-p.collapsText {
+.collapsText {
   color: black;
   font-weight: 400;
+  margin: 20px;
 }/*# sourceMappingURL=collaps.css.map */
