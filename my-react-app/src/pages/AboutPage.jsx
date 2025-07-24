@@ -6,7 +6,7 @@ import bannerImgAbout from "../assets/img/bannerImgAbout.png";
 export default function AboutPage() {
   return (
     <>
-      <Banner image={bannerImgAbout} alt={"Image de la bannière"} />
+      <Banner image={bannerImgAbout} alt={"Image de la bannière"} className="About"/>
        <div className="collaps-container">
       {collapsData.map((collaps) => (
        

@@ -4,6 +4,8 @@ import { getAllLogements } from "../assets/data/loadLogement";
 import Carrousel from "../components/Carrousel.jsx";
 import Collaps from "../components/CollapsLocation";
 import "../assets/collapsLocationCSS/collapsLocation.css"; 
+import InfoLocation from "../components/InfoLocation.jsx";
+import "../assets/infoLocationCSS/infoLocation.css"
 
 export default function PageLocation() {
   const { id } = useParams();
@@ -22,6 +24,7 @@ export default function PageLocation() {
   return (
     <div>
       <Carrousel data={location} />
+      <InfoLocation data={location} />
       <Collaps data={location} />
     </div>
   );

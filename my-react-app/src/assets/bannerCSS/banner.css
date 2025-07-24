@@ -33,4 +33,12 @@ section.position-banner {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.banner-imgAbout {
+  height: 223px;
+  width: 1240px;
+  object-fit: cover;
+  border-radius: 25px;
+  filter: brightness(0.5);
 }/*# sourceMappingURL=banner.css.map */
