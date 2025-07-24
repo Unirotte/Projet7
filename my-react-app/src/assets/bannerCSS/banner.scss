@@ -9,24 +9,19 @@
 
 img.banner-img {
   height: 223px;
-  width: 1240px;
+  width: 84vw;
   object-fit: cover;
   border-radius: 25px;
   filter: brightness(0.5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
 }
 
-section.position-banner {
-  display: flex;
-  justify-content: space-between;
-  width: 1240px;
-  margin: auto;
-}
+
 
 .Banner {
   display: flex;
   justify-content: center;
-  margin: 50px 0px;
+  margin: 25px 0px;
 }
 
 .banner-content {
@@ -37,8 +32,22 @@ section.position-banner {
 
 .banner-imgAbout {
  height: 223px;
-  width: 1240px;
+  width: 86vw;
   object-fit: cover;
   border-radius: 25px;
   filter: brightness(0.5);
+}
+
+@media (min-width: 375px) and (max-width: 768px) { 
+
+img.banner-img {
+    height: 111px;
+    width: 335px; 
+  }
+
+.banner-title {
+  font-size: 24px;
+  max-width: 300px;
+}
+
 }

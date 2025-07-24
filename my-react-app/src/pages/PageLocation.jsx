@@ -6,6 +6,7 @@ import Collaps from "../components/CollapsLocation";
 import "../assets/collapsLocationCSS/collapsLocation.css"; 
 import InfoLocation from "../components/InfoLocation.jsx";
 import "../assets/infoLocationCSS/infoLocation.css"
+import ErrorPage from "./ErrorPage.jsx";
 
 export default function PageLocation() {
   const { id } = useParams();
@@ -18,11 +19,11 @@ export default function PageLocation() {
   }, [id]);
 
   if (!location) {
-    return <div>Location non trouvée</div>;
+    return <ErrorPage/>;
   }
 
   return (
-    <div>
+    <div className="AllPage">
       <Carrousel data={location} />
       <InfoLocation data={location} />
       <Collaps data={location} />

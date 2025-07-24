@@ -9,13 +9,6 @@
   width: 542px;
 }
 
-h1.Title-Location {
-  font-weight: 500;
-  font-size: 36px;
-  color: #ff6060;
-  margin: 0;
-}
-
 .collapsLocation-container {
   display: flex;
   flex-direction: row;
@@ -30,4 +23,20 @@ h1.Title-Location {
 
 .collapsContent.location-collaps {
   max-width: 582px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .collapsLocation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 335px;
+  }
+  .collaps.location-collaps {
+    height: 30px;
+    width: 300px;
+  }
+  .collapsTitle {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=collapsLocation.css.map */

@@ -33,3 +33,26 @@ a.btn-retour {
   font-weight: 500;
   margin-bottom: 150px;
 }
+
+// RESPONSIF
+
+@media (min-width: 375px) and (max-width: 745px) {
+  h1.Error404 {
+    font-size: 96px;
+    margin-top: 50px;
+  }
+
+  h2.textError {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff6060;
+    margin: 100px 0px;
+    width: 200px;
+  }
+
+  a.btn-retour {
+    border-bottom: solid 1px;
+    font-size: 14px;
+    margin-bottom: 100px;
+  }
+}

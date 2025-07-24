@@ -30,10 +30,11 @@ export default function Slides({data}) {
         />
         <div className="arrow-container">
           <button className="arrow left" onClick={goToPrevious}>
-            <img src={Left} alt="précédent" />
+            <i class="fa-sharp fa-solid fa-angle-left" alt="précédent" />
+          
           </button>
           <button className="arrow right" onClick={goToNext}>
-            <img src={Right} alt="suivant" />
+            <i class="fa-sharp fa-solid fa-angle-right" alt="suivant" />
           </button>
         </div>
       </div>

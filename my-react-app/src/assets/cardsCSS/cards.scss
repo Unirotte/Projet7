@@ -22,7 +22,7 @@ img.card-image {
 .container-card {
   display: flex;
   background-color: #f6f6f6;
-  max-width: 1240px;
+  max-width: 84vw;
   margin: auto;
   margin-bottom: 50px;
   justify-content: center;
@@ -34,9 +34,9 @@ img.card-image {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
-  max-width: 1240px;
   justify-content: center;
   padding: 50px 0px;
+      margin: 0px 3vw;
 }
 
 p {
@@ -44,4 +44,17 @@ p {
   color: white;
   font-weight: 700;
   font-size: 18px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) { 
+
+  .Card-zone {
+    padding: 0px;
+}
+
+.container-card {
+
+background-color: white;
+}
+
 }

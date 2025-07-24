@@ -1,12 +1,12 @@
 .collaps-container {
   display: flex;
   flex-direction: column;
-  max-width: 1024px;
+  max-width: 71vw;
   margin: auto;
 }
 
 .position-collaps {
-  width: 1023px;
+  width: 71vw;
   margin-bottom: 30px;
 }
 
@@ -53,4 +53,17 @@
   color: black;
   font-weight: 400;
   margin: 20px;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .collaps {
+    height: 30px;
+  }
+  .collaps-container {
+    max-width: 84vw;
+  }
+  .position-collaps {
+    width: 84vw;
+    margin-bottom: 15px;
+  }
 }/*# sourceMappingURL=collaps.css.map */

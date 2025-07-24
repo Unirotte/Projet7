@@ -72,3 +72,56 @@ img.host-picture {
   display: flex;
   gap: 10px;
 }
+
+h1.Title-Location {
+  font-weight: 500;
+  font-size: 36px;
+  color: #ff6060;
+  margin: 0;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  h1.Title-Location {
+    font-size: 18px;
+  }
+
+  h2.Subtitle-Location {
+    font-size: 14px;
+    margin: auto;
+    width: 355px;
+  }
+
+  .containter-subStar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width: 90vw;
+        margin: auto;
+  }
+  .positionAll {
+    margin: auto;
+  }
+  .star-container {
+    
+    margin-bottom: 30px;
+  }
+
+  .nameImg {
+    display: flex
+;
+    align-items: center;
+    width: 140px;
+    position: absolute;
+    left: 57vw;
+    bottom: 112vw;
+}
+
+.hostLocation {
+    margin: 0px 21px;
+}
+
+.host-container {
+    margin-top: 10px;
+    height: 25px;
+}
+}

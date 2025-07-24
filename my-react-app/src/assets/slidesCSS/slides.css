@@ -14,6 +14,7 @@ button.arrow {
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 90px;
 }
 
 .arrow-container {
@@ -27,4 +28,18 @@ button.arrow {
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  img.slides-img {
+    height: 255px;
+    width: 335px;
+  }
+  .arrow-container {
+    top: 100px;
+    gap: 270px;
+  }
+  button.arrow {
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=slides.css.map */

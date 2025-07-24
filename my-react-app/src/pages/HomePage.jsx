@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <>
       <Banner
-        title="Chez vous est partout ailleurs"
+        title="Chez vous, est partout ailleurs"
         image={bannerImg}
         alt={"Image de la bannière"}
       />
