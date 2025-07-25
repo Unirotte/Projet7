@@ -66,4 +66,12 @@
     width: 84vw;
     margin-bottom: 15px;
   }
+  .collapsContent.open {
+    width: 357px;
+    font-size: 12px;
+  }
+  .collapsContent {
+    width: 357px;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=collaps.css.map */

@@ -24,7 +24,18 @@
 .collapsContent.location-collaps {
   max-width: 582px;
 }
+.collapsContentlocation-collaps {
+  background: #f6f6f6;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 20px;
+}
 
+.collapsContent.openlocation-collaps {
+  max-height: 500px;
+  transition: max-height 0.3s ease;
+}
 @media (min-width: 375px) and (max-width: 768px) {
   .collapsLocation-container {
     display: flex;
@@ -40,6 +51,13 @@
 
   .collapsTitle {
     font-size: 13px;
-}
-
+  }
+  .collapsContent.location-collaps {
+    width: 300px;
+    font-size: 12px;
+  }
+  .collapsContent.openlocation-collaps {
+    font-size: 12px;
+    width: 300px;
+  }
 }

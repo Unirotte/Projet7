@@ -12,7 +12,7 @@ export default function Collaps({ title, text, className = "" }) {
           <i className="fa-solid fa-chevron-up"></i>
         </span>
       </div>
-      <div className={`collapsContent ${isOpen ? "open" : ""}`}>
+      <div className={`collapsContent ${isOpen ? "open" : ""}${className}`}>
         <div className={`collapsText${className}`}>{text}</div>
       </div>
     </div>

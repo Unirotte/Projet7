@@ -45,8 +45,17 @@ p {
 @media (min-width: 375px) and (max-width: 768px) {
   .Card-zone {
     padding: 0px;
+    gap: 25px;
   }
   .container-card {
     background-color: white;
+  }
+  .card {
+    width: 335px;
+    height: 255px;
+  }
+  img.card-image {
+    height: 175px;
+    width: 355px;
   }
 }/*# sourceMappingURL=cards.css.map */
