@@ -66,11 +66,13 @@
     margin-bottom: 15px;
   }
   .collapsContent.open {
-    width: 357px;
+    width: 100%;
     font-size: 12px;
+    padding: 0;
   }
-    .collapsContent {
-        width: 357px;
-        font-size: 12px;
-    }
+  .collapsContent {
+    width: 100%;
+    font-size: 12px;
+    padding: 0;
+  }
 }

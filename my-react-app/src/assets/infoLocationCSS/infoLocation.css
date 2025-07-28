@@ -55,7 +55,7 @@ img.host-picture {
 .titleSub-container {
   display: flex;
   flex-direction: column;
-  height: 50px;
+  height: 100%;
 }
 
 .nameImg {
@@ -120,29 +120,22 @@ h1.Title-Location {
     max-width: 335px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  .hostStar {
-    display: flex;
-    width: 140px;
-    flex-direction: row-reverse;
-    margin-top: 47px;
-    gap: 95px;
-    margin-left: 58%;
-    margin-bottom: 10px;
+    align-items: flex-end;
   }
   .hostLocation {
     margin: 0px 21px;
   }
   .titleSub-container {
     margin-top: 10px;
-    height: 25px;
     margin-left: 20px;
+    max-width: 335px;
+    height: 100%;
   }
   .tag {
-    width: 84px;
+    max-width: 19vw;
     height: 18px;
     font-size: 10px;
+    white-space: nowrap;
   }
   img.host-picture {
     width: 32px;
@@ -156,11 +149,8 @@ h1.Title-Location {
   }
   .hostStar {
     display: flex;
-    width: 140px;
+    max-width: 335px;
     flex-direction: row-reverse;
-    margin-top: 47px;
-    gap: 125px;
-    margin-left: 58%;
     margin-bottom: 10px;
   }
   .host-name {
