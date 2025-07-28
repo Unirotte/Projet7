@@ -1,10 +1,6 @@
-import "../assets/index.css";
-import "../assets/cardsCSS/cards.css";
-import "../assets/bannerCSS/banner.css";
-import "../assets/cardsCSS/cards.css";
-import Cards from "../components/Cards";
+import "../assets/compileur/CompileurHomePageCSS/compileurHomePage.css";
+import {Banner, Cards,} from '../components/Index';
 import {getAllLogements} from "../assets/data/loadLogement";
-import Banner from "../components/Banner";
 import bannerImg from '../assets/img/bannerImgHome.png';
 
 export default function HomePage() {

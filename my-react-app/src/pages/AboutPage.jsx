@@ -1,5 +1,4 @@
-import Banner from "../components/Banner";
-import Collaps from "../components/Collaps";
+import {Banner, Collaps,} from '../components/Index';
 import "../assets/CollapsCSS/collaps.css";
 import collapsData from "../assets/data/collapsTableau.json";
 import bannerImgAbout from "../assets/img/bannerImgAbout.png";

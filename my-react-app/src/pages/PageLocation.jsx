@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getAllLogements } from "../assets/data/loadLogement";
-import Carrousel from "../components/Carrousel.jsx";
-import Collaps from "../components/CollapsLocation";
-import "../assets/collapsLocationCSS/collapsLocation.css"; 
-import InfoLocation from "../components/InfoLocation.jsx";
-import "../assets/infoLocationCSS/infoLocation.css"
+import "../assets/compileur/CompileurPageLocationCSS/compileurPageLocation.css";
 import ErrorPage from "./ErrorPage.jsx";
+import {Carrousel, InfoLocation, } from '../components/Index';
+import Collaps from "../components/CollapsLocation";
 
 export default function PageLocation() {
   const { id } = useParams();
