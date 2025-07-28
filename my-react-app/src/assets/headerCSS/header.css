@@ -11,7 +11,7 @@ ul.nav-links {
   gap: 3.96vw;
   list-style: none;
   font-weight: 500;
-  font-size: 1.6vw;
+  font-size: 24px;
 }
 
 li {
@@ -29,7 +29,7 @@ li:hover {
 }
 
 img.h-10 {
-  height: 5vw;
+  height: 68px;
 }
 
 section.position-banner {
@@ -39,7 +39,7 @@ section.position-banner {
   margin: auto;
 }
 
-@media (min-width: 375px) and (max-width: 745px) {
+@media (max-width: 768px) {
   header.logo-header {
     display: flex;
     justify-content: space-between;

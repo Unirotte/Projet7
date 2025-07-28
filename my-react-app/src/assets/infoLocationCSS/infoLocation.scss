@@ -1,3 +1,7 @@
+.AllPage {
+    margin: 30px;
+}
+
 .tags-container {
   display: flex;
   margin: 25px 0px;
@@ -26,6 +30,7 @@ h2.Subtitle-Location {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li.textCollaps,
@@ -43,9 +48,7 @@ li.textCollaps:hover {
   margin-top: 25px;
 }
 
-.collapsTextlocation-collaps {
-  margin: 25px 0px;
-}
+
 
 img.host-picture {
   width: 64px;
@@ -97,7 +100,7 @@ h1.Title-Location {
   color: #ff6060;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
   h1.Title-Location {
     font-size: 18px;
   }
@@ -161,4 +164,9 @@ h1.Title-Location {
   .host-name {
     font-size: 12px;
   }
+
+  .AllPage {
+    margin: 0px;
+}
+
 }

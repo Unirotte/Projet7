@@ -36,7 +36,7 @@ img.banner-img {
   filter: brightness(0.5);
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
   img.banner-img {
     height: 111px;
     width: 335px;

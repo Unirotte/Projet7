@@ -3,10 +3,12 @@
   flex-direction: column;
   margin: 100px;
 }
+.collapsTextlocation-collaps {
+  margin: 25px 15px;
+}
 
 .collaps.location-collaps {
   height: 52px;
-  width: 542px;
 }
 
 .collapsLocation-container {
@@ -21,9 +23,6 @@
   max-width: 582px;
 }
 
-.collapsContent.location-collaps {
-  max-width: 582px;
-}
 .collapsContentlocation-collaps {
   background: #f6f6f6;
   max-height: 0;
@@ -36,7 +35,7 @@
   max-height: 500px;
   transition: max-height 0.3s ease;
 }
-@media (min-width: 375px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .collapsLocation-container {
     display: flex;
     flex-direction: column;

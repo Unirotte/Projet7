@@ -21,8 +21,9 @@ button.arrow {
   position: absolute;
   top: 166px;
   display: flex;
-  gap: 1100px;
-  
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1240px;
 }
 .banner-slide {
   position: relative;
@@ -30,20 +31,20 @@ button.arrow {
   justify-content: center;
 }
 
-@media (min-width: 375px) and (max-width: 768px) {  
-
+@media (max-width: 768px) {
   img.slides-img {
-  height: 255px;
-  width: 335px;
-}
+    height: 255px;
+    width: 335px;
+  }
 
-.arrow-container {
-  top: 100px;
-  gap: 270px;
-}
+  .arrow-container {
+    top: 100px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 335px;
+  }
 
-button.arrow {
-  font-size: 35px;
-}
-
+  button.arrow {
+    font-size: 35px;
+  }
 }
