@@ -1,40 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import App from "./App.jsx";
-import HomePage from "./pages/HomePage.jsx";
-import AboutPage from "./pages/AboutPage.jsx"; 
-import ErrorPage from "./pages/ErrorPage.jsx";
-import PageLocation from "./pages/PageLocation.jsx";
+import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import "./assets/headerCSS/header.css";
+import "./assets/footerCSS/footer.css";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <HomePage />,
-      },
-      {
-        path: "/AboutPage", 
-        element: <AboutPage />,
-      },
-      {
-        path: "/PageLocation/:id",
-        element: <PageLocation />, 
-      },
-      {
-        path: "*",
-        element: <ErrorPage />,
-      }
-    ],
-  },
-]);
+export default function App() {
+  return (
+    <>
+    <Header />
+    <Outlet />
+    <Footer />
+    </>
+  );
+}
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-);
+

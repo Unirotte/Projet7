@@ -14,8 +14,8 @@ export default function InfoLocation({data}) {
             
             <div className="tags-container">
               {data.tags.map((tag, index) => (
-                <div className="tag" key={index}>
-                  {tag}
+                <div className="tag" title={tag} key={index}>
+                  {tag} 
                 </div>
               ))}
             </div>

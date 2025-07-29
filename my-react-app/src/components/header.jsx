@@ -6,7 +6,8 @@ export default function Header() {
   return (
     <header className="logo-header">
       <section className="position-banner">
-      <img src={logo} alt="Logo du site" className="h-10" />
+        <Link to="/">
+      <img src={logo} alt="Logo du site" className="h-10" /></Link>
     <ul className="nav-links">
       <li><Link to="/" className={location.pathname === "/" ? "li active" : "li"}>Accueil</Link></li>
       <li><Link to="/AboutPage" className={location.pathname === "/AboutPage" ? "li active" : "li"}>A propos</Link></li>

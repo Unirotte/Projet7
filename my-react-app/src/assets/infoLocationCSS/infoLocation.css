@@ -9,17 +9,22 @@
 }
 
 .tag {
-  display: flex;
+  display: inline-block;
+  place-items: center;
   background: #ff6060;
-  width: 150px;
-  height: 30px;
-  border-radius: 25px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   color: #ffffff;
+  border-radius: 25px;
   font-weight: 700;
   font-size: 14px;
+  padding: 0 5px;
+  width: 150px;
+  height: 30px;
+  max-width: 10.41vw;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
 }
 
 h2.Subtitle-Location {
@@ -57,6 +62,7 @@ img.host-picture {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 65vw;
 }
 
 .nameImg {
@@ -131,12 +137,20 @@ h1.Title-Location {
     margin-left: 20px;
     max-width: 335px;
     height: 100%;
+    width: auto;
   }
   .tag {
-    max-width: 19vw;
+    width: 80px;
     height: 18px;
     font-size: 10px;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85px;
+    display: block;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 5px;
   }
   img.host-picture {
     width: 32px;
