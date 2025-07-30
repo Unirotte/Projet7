@@ -5,13 +5,9 @@ export default function InfoLocation({data}) {
   return (
     <>
       <div className="positionAll">
-
-      
             <div className="titleSub-container">
               <h1 className="Title-Location">{data.title}</h1>
-
               <h2 className="Subtitle-Location">{data.location}</h2>
-            
             <div className="tags-container">
               {data.tags.map((tag, index) => (
                 <div className="tag" title={tag} key={index}>
@@ -20,7 +16,6 @@ export default function InfoLocation({data}) {
               ))}
             </div>
           </div>
-
           <div className="hostStar">
             <div className="hostPicture">
             <div className="host-name">{data.host.name}</div>
@@ -32,7 +27,6 @@ export default function InfoLocation({data}) {
             </div>
             <div className="containter-subStar">
               <Star rating={data.rating} />
-
             </div>
          
         </div>

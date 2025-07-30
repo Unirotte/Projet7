@@ -5,6 +5,13 @@
   display: flex;
   border-radius: 10px;
   flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.imgText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 img.card-image {
@@ -12,7 +19,9 @@ img.card-image {
   max-width: 340px;
   object-fit: cover;
   border-top-right-radius: 10px;
-  height: 255px;
+  height: 344px;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+  position: relative;
 }
 
 .container-card {
@@ -35,11 +44,13 @@ img.card-image {
   margin: 0px 3vw;
 }
 
-p {
+p.titleCards {
   margin-left: 15px;
   color: white;
   font-weight: 700;
   font-size: 18px;
+  position: absolute;
+  max-width: 325px;
 }
 
 @media (max-width: 768px) {
