@@ -13,9 +13,9 @@
 }
 
 .imgText {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 img.card-image {
@@ -71,7 +71,7 @@ p.titleCards {
     height: 255px;
   }
   img.card-image {
-    height: 175px;
+    height: 255px;
     width: 355px;
   }
 }
