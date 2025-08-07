@@ -28,10 +28,14 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <ErrorPage />,
-      }
+      },
     ],
   },
-]);
+],
+   {
+    basename: "/Projet7", // ← Ajoute ceci ici
+  }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
