@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
 ],
    {
-    basename: "/Projet7", // ← Ajoute ceci ici
+    basename: "/Projet7",
   }
 );
 
